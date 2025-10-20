@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tic Tac Toe: Friends Edition</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Tic Tac Toe: Pagmumukha nyu 💜</h1>
+
+  <div class="scoreboard">
+    <div>Player X : <span id="scoreX">0</span></div>
+    <div>Player O : <span id="scoreO">0</span></div>
+  </div>
+
+  <div class="board">
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+  </div>
+
+  <button id="restartButton">Restart Game</button>
+
+
+  <div id="modal" class="modal hidden">
+  <div class="modal-content">
+    <p id="modal-message"></p>
+    <button id="modal-button"> OKAY </button>
+  </div>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
